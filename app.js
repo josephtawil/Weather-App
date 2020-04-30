@@ -15,7 +15,7 @@ $(document).ready(function () {
             kelvin = response.main.temp;
             city = response.name;
             // var fah = (kelvin - 273.15) * 9 / 5 + 32;
-            $("body").append(`<h1>The weather is ${kelvin} in ${city}</h1>`);
+            $("body").append(`<h1>The weather is ${kelvin} Degrees Fahrenheit in ${city}</h1>`);
         });
     });
 
